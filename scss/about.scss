@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 2rem;
+    border-bottom: 5px solid #006cd0;
+  }
+  p {
+    margin-top: 20px;
+    width: 900px;
+    padding: 20px 50px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}
