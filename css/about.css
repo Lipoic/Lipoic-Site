@@ -1,19 +1,29 @@
 .about {
+  background-image: url("../images/alexander-grey-O2u6gA2esAI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.about .wrap {
+  background-color: rgba(44, 44, 44, 0.822);
+  backdrop-filter: blur(2px);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-.about h1 {
-  font-size: 2rem;
-  border-bottom: 5px solid #006cd0;
+  padding: 10px 50px;
 }
 .about p {
   margin-top: 20px;
   max-width: 900px;
+  min-height: 300px;
   padding: 20px 10px;
   font-size: 1.2rem;
   font-weight: 300;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=about.css.map */
