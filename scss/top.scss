@@ -1,4 +1,4 @@
-@import url("./global.scss");
+@import "rwd";
 
 .top {
   display: flex;
@@ -6,6 +6,10 @@
   justify-content: center;
   padding: 10px 50px;
   user-select: none;
+  -webkit-user-select: none;
+  @include pad {
+    flex-direction: column;
+  }
   .left {
     height: 100%;
     width: 50%;
@@ -24,6 +28,10 @@
     align-items: flex-start;
     justify-content: center;
     padding: auto 80px;
+
+    @include pad {
+      align-items: center;
+    }
     h1 {
       font-weight: 800;
       font-size: 3rem;
@@ -37,6 +45,10 @@
       -webkit-text-fill-color: transparent;
       -moz-background-clip: text;
       -moz-text-fill-color: transparent;
+
+      @include pad {
+        font-size: 2rem;
+      }
     }
     h2 {
       font-size: 1.8rem;

@@ -1,10 +1,15 @@
-@import url("./global.scss");
 .top {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 50px;
   user-select: none;
+  -webkit-user-select: none;
+}
+@media screen and (max-width: 800px) {
+  .top {
+    flex-direction: column;
+  }
 }
 .top .left {
   height: 100%;
@@ -25,6 +30,11 @@
   justify-content: center;
   padding: auto 80px;
 }
+@media screen and (max-width: 800px) {
+  .top .right {
+    align-items: center;
+  }
+}
 .top .right h1 {
   font-weight: 800;
   font-size: 3rem;
@@ -38,6 +48,11 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+@media screen and (max-width: 800px) {
+  .top .right h1 {
+    font-size: 2rem;
+  }
 }
 .top .right h2 {
   font-size: 1.8rem;
