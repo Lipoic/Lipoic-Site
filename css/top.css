@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 50px;
+  padding: 50px 10px;
   user-select: none;
   -webkit-user-select: none;
 }
 @media screen and (max-width: 800px) {
   .top {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 50px 10px;
   }
 }
 .top .left {
@@ -21,6 +22,11 @@
 .top .left img {
   width: 90%;
 }
+@media screen and (max-width: 800px) {
+  .top .left {
+    width: 100%;
+  }
+}
 .top .right {
   height: 100%;
   width: 50%;
@@ -28,17 +34,20 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: auto 80px;
+  padding: 0 80px;
 }
 @media screen and (max-width: 800px) {
   .top .right {
+    width: 100%;
     align-items: center;
+    padding: 0;
   }
 }
 .top .right h1 {
   font-weight: 800;
   font-size: 3rem;
   letter-spacing: 1.3px;
+  text-align: center;
   background-color: #004a8f;
   background-image: linear-gradient(45deg, #004a8f, #c815ce);
   background-size: 100%;
@@ -51,12 +60,23 @@
 }
 @media screen and (max-width: 800px) {
   .top .right h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .top .right h1 {
+    font-size: 2.3rem;
   }
 }
 .top .right h2 {
   font-size: 1.8rem;
   font-weight: 30;
+  text-align: center;
+}
+@media screen and (max-width: 620px) {
+  .top .right h2 {
+    font-size: 1.3rem;
+  }
 }
 .top .right a.loginBtn {
   border: 1px solid #004a8f;
