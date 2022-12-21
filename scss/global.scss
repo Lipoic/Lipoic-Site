@@ -17,3 +17,25 @@ body {
   background-color: #1e1e1e;
   color: #f1f1f1;
 }
+
+html {
+  scrollbar-color: #004a8f88 #424242;
+  scrollbar-width: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #424242;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #004a8f88;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004a8f;
+}

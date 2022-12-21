@@ -17,4 +17,27 @@ body {
   color: #f1f1f1;
 }
 
+html {
+  scrollbar-color: rgba(0, 74, 143, 0.5333333333) #424242;
+  scrollbar-width: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #424242;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 74, 143, 0.5333333333);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004a8f;
+}
+
 /*# sourceMappingURL=global.css.map */
