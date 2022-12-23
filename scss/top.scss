@@ -78,8 +78,8 @@
     a.loginBtn {
       border: 1px solid #004a8f;
       margin-top: 20px;
-      padding: 2px 25px 3px 28px;
-      font-size: 1.4rem;
+      padding: 4px 50px 6px 56px;
+      font-size: 1.6rem;
       font-weight: 200;
       text-align: center;
       background-color: #004a8f88;
@@ -90,6 +90,11 @@
       &:hover {
         background-color: transparent;
         color: #006cd0;
+      }
+
+      @include phone {
+        padding: 2px 25px 3px 28px;
+        font-size: 1.4rem;
       }
     }
   }

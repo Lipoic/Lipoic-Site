@@ -84,8 +84,8 @@
 .top .right a.loginBtn {
   border: 1px solid #004a8f;
   margin-top: 20px;
-  padding: 2px 25px 3px 28px;
-  font-size: 1.4rem;
+  padding: 4px 50px 6px 56px;
+  font-size: 1.6rem;
   font-weight: 200;
   text-align: center;
   background-color: rgba(0, 74, 143, 0.5333333333);
@@ -97,6 +97,12 @@
 .top .right a.loginBtn:hover {
   background-color: transparent;
   color: #006cd0;
+}
+@media screen and (max-width: 620px) {
+  .top .right a.loginBtn {
+    padding: 2px 25px 3px 28px;
+    font-size: 1.4rem;
+  }
 }
 
 /*# sourceMappingURL=top.css.map */
