@@ -1,0 +1,69 @@
+@import "rwd";
+
+.feature {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 2rem;
+    border-bottom: 4px solid #10a0ff;
+  }
+
+  .features {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .ft {
+      background-color: #109fff75;
+      padding: 50px;
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 200px;
+      }
+
+      p {
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      @include phone {
+        padding: 30px;
+
+        img {
+          width: 100px;
+        }
+
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  a {
+    margin-top: 30px;
+    background-color: #10a0ff;
+    color: #f1f1f1;
+    padding: 4px 25px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+}
