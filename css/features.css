@@ -33,6 +33,17 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+@media screen and (max-width: 620px) {
+  .feature .features .ft {
+    padding: 30px;
+  }
+  .feature .features .ft img {
+    width: 100px;
+  }
+  .feature .features .ft p {
+    font-size: 1.3rem;
+  }
+}
 .feature a {
   margin-top: 30px;
   background-color: #10a0ff;
