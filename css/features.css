@@ -36,11 +36,14 @@
 @media screen and (max-width: 620px) {
   .feature .features .ft {
     padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .feature .features .ft img {
     width: 100px;
   }
   .feature .features .ft p {
+    margin-top: 10px;
     font-size: 1.3rem;
   }
 }
