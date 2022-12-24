@@ -1,0 +1,30 @@
+.contact {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact h1 {
+  font-size: 2rem;
+  border-bottom: 4px solid #10a0ff;
+  text-align: center;
+}
+.contact > p {
+  margin-top: 20px;
+  text-align: center;
+}
+.contact .cds {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.contact .cds .cd {
+  background-color: rgba(16, 159, 255, 0.4588235294);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=contact.css.map */
