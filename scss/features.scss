@@ -41,12 +41,15 @@
 
       @include phone {
         padding: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
 
         img {
           width: 100px;
         }
 
         p {
+          margin-top: 10px;
           font-size: 1.3rem;
         }
       }
@@ -54,7 +57,7 @@
   }
   a {
     margin-top: 30px;
-    background-color: #10a0ff;
+    background-color: #004a8f;
     color: #f1f1f1;
     padding: 4px 25px;
     font-size: 1.2rem;
