@@ -29,8 +29,6 @@
   display: flex;
   color: #109fff;
   align-items: center;
-  min-height: 100%;
-  font-size: 2rem;
 }
 .contact .cds .cd a {
   color: #109fff;
