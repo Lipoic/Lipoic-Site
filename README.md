@@ -2,11 +2,11 @@
 
 The website that introduces us.
 
-## Get started
+## Getting started
 
-### Compile CSS from SCSS
+### Compiling CSS from SCSS
 
 ```bash
-npm install -g sass # If you don't have sass installed
+npm install -g sass # If you don't have sass installed.
 sass scss:css
 ```
