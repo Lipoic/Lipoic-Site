@@ -32,7 +32,7 @@
   min-height: 100%;
   font-size: 2rem;
 }
-.contact .cds .cd a {
+.contact .cds .cd a:not(:nth-child(1)) {
   color: #109fff;
 }
 .contact .cds .cd P {
