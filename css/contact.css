@@ -1,0 +1,66 @@
+.contact {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact h1 {
+  font-size: 2rem;
+  border-bottom: 4px solid #10a0ff;
+  text-align: center;
+}
+.contact > p {
+  margin-top: 20px;
+  text-align: center;
+}
+.contact .cd {
+  margin-top: 30px;
+  background-color: rgba(16, 159, 255, 0.4588235294);
+  padding: 12px;
+  border-radius: 5px;
+  display: flex;
+  color: #109fff;
+  align-items: center;
+  min-height: 100%;
+  font-size: 2rem;
+}
+.contact .cd P {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+}
+.contact .cd i {
+  font-size: 48px;
+}
+.contact .cd:nth-child(1) i {
+  margin-right: 8px;
+}
+@media screen and (max-width: 620px) {
+  .contact .cd:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 25vw;
+    margin-left: 25vw;
+  }
+}
+@media screen and (max-width: 620px) {
+  .contact .cd {
+    margin-top: 20px;
+  }
+  .contact .cd i {
+    font-size: 36px;
+  }
+  .contact .cd P {
+    font-size: 1.2rem;
+  }
+}
+.contact .cds {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=contact.css.map */

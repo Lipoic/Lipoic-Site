@@ -1,0 +1,76 @@
+@import "rwd";
+.contact {
+  padding: 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 2rem;
+    border-bottom: 4px solid #10a0ff;
+    text-align: center;
+  }
+
+  & > p {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .cd {
+    margin-top: 30px;
+    background-color: #109fff75;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    color: #109fff;
+    align-items: center;
+    min-height: 100%;
+    font-size: 2rem;
+
+    P {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: white;
+    }
+
+    i {
+      font-size: 48px;
+    }
+
+    // For mail contact details
+    &:nth-child(1) {
+      i {
+        margin-right: 8px;
+      }
+
+      @include phone {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-right: 25vw;
+        margin-left: 25vw;
+      }
+    }
+
+    @include phone {
+      margin-top: 20px;
+
+      i {
+        font-size: 36px;
+      }
+
+      P {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .cds {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
