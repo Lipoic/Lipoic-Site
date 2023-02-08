@@ -56,6 +56,8 @@
   border-radius: 4px;
   font-weight: 500;
   transition: 0.2s;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .feature a:hover {
   transform: scale(110%);
