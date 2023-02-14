@@ -1,11 +1,15 @@
-.header {
+nav {
   background-color: #004a8f88;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0 0 10px 10px;
+  * {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
   .logo {
-    margin: 12px;
+    margin: 12px auto 12px 12px;
     display: flex;
     align-items: center;
     img {
@@ -17,5 +21,12 @@
       position: relative;
       bottom: 3px;
     }
+  }
+  .nav-item {
+    margin: 12px;
+    font-size: 2rem;
+    font-weight: 200;
+    position: relative;
+    bottom: 3px;
   }
 }

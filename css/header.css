@@ -1,20 +1,31 @@
-.header {
+nav {
   background-color: rgba(0, 74, 143, 0.5333333333);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 0 0 10px 10px;
 }
-.header .logo {
-  margin: 12px;
+nav * {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+nav .logo {
+  margin: 12px auto 12px 12px;
   display: flex;
   align-items: center;
 }
-.header .logo img {
+nav .logo img {
   height: 45px;
 }
-.header .logo h1 {
+nav .logo h1 {
   font-size: 2.2rem;
+  font-weight: 200;
+  position: relative;
+  bottom: 3px;
+}
+nav .nav-item {
+  margin: 12px;
+  font-size: 2rem;
   font-weight: 200;
   position: relative;
   bottom: 3px;
