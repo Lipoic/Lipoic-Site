@@ -5,12 +5,15 @@ nav {
   justify-content: center;
   border-radius: 0 0 10px 10px;
 }
-nav * {
+nav a {
   color: #f1f1f1;
   text-decoration: none;
+  margin: 12px;
+  font-size: 2rem;
+  font-weight: 200;
 }
 nav .logo {
-  margin: 12px auto 12px 12px;
+  margin-right: auto;
   display: flex;
   align-items: center;
 }
@@ -19,13 +22,6 @@ nav .logo img {
 }
 nav .logo h1 {
   font-size: 2.2rem;
-  font-weight: 200;
-  position: relative;
-  bottom: 3px;
-}
-nav .nav-item {
-  margin: 12px;
-  font-size: 2rem;
   font-weight: 200;
   position: relative;
   bottom: 3px;
