@@ -81,6 +81,18 @@
     text-align: center;
   }
 }
+.top .right h3 {
+  font-size: 1.2rem;
+  font-weight: 60;
+  text-align: start;
+  margin-top: 10px;
+}
+@media screen and (max-width: 620px) {
+  .top .right h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
 .top .right a.loginBtn {
   border: 1px solid #004a8f;
   margin-top: 20px;
